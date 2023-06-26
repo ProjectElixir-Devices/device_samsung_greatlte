@@ -6,7 +6,7 @@ git clone https://github.com/8890q/android_kernel_samsung_universal8895.git -b l
 
 # Common tree for Universal8895-common
 rm -rf device/samsung/universal8895-common
-git clone https://github.com/8890q/android_device_samsung_universal8895-common.git -b lineage-20.0 device/samsung/universal8895-common--depth 1
+git clone https://github.com/pallavjparikh/android_device_samsung_universal8895-common.git -b elixir-13 device/samsung/universal8895-common --depth 1
 
 # Vendor blobs for Note 8
 rm -rf vendor/samsung
