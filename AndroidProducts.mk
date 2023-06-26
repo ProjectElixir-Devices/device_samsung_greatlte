@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_greatlte.mk
+    $(LOCAL_DIR)/aosp_greatlte.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_greatlte-user \
+    aosp_greatlte-userdebug \
+    aosp_greatlte-eng

@@ -23,11 +23,26 @@ $(call inherit-product, device/samsung/greatlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+
+# Project-Elixir
+IS_PHONE := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+ELIXIR_BUILD_TYPE := OFFICIAL
+TARGET_USES_AOSP_RECOVERY := true
+ELIXIR_MAINTAINER := PallavjParikh
+
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := greatlte
-PRODUCT_NAME := lineage_greatlte
+PRODUCT_NAME := aosp_greatlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N950F
 PRODUCT_MANUFACTURER := samsung
