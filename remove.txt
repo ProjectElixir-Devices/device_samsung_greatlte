@@ -1,0 +1,5 @@
+kernel/samsung/universal8895
+device/samsung/universal8895-common
+vendor/samsung
+hardware/samsung
+device/samsung_slsi/sepolicy
