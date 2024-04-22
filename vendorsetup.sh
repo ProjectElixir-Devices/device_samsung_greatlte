@@ -15,7 +15,7 @@ git clone https://github.com/8890q/proprietary_vendor_samsung.git -b lineage-21.
 # Hardware OSS parts for Samsung
 mv hardware/samsung/nfc .
 rm -rf hardware/samsung
-git clone https://github.com/8890q/android_hardware_samsung.git -b lineage-21.0 hardware/samsung
+git clone https://github.com/pallavjparikh/android_hardware_samsung.git -b lineage-21.0 hardware/samsung
 mv nfc hardware/samsung
 
 # SLSI Sepolicy
