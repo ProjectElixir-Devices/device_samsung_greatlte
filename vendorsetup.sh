@@ -32,3 +32,5 @@ git clone https://github.com/8890q/android_hardware_samsung_slsi-linaro_exynos.g
 git clone https://github.com/8890q/android_hardware_samsung_slsi-linaro_exynos5.git -b lineage-20 hardware/samsung_slsi-linaro/exynos5
 git clone https://github.com/8890q/android_hardware_samsung_slsi-linaro_graphics.git -b lineage-21 hardware/samsung_slsi-linaro/graphics
 git clone https://github.com/8890q/android_hardware_samsung_slsi-linaro_openmax.git -b lineage-20 hardware/samsung_slsi-linaro/openmax
+
+git clone https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git -b lineage-20.0 prebuilts/clang/kernel/linux-x86/clang-r416183b
